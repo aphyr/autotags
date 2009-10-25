@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Autotags demo</title>
+  </head>
+  <body>
+    <!-- You'll need Jquery and the autocomplete plugin to use this. -->
+    <script type="text/javascript" src="../lib/autotags.js"></script>
+
+    <h1>Autotags</h1>
+    <form action="post.cgi">
+      <input type="text" name="tags" id="tags" value="dinosaurs, awesome, garofalo" />
+      <input type="submit" value="Submit" onclick="alert($
+      <script type="text/javascript">
+        /* <![CDATA[ */
+        $(document).ready(function() {
+          $("#tags").autotags({
+            url: "some_url_for_autocomplete"
+            /* You can add additional opts for the autocomplete plugin here */
+          });
+        });
+      </script>
+    </form>
+  </body>
+</html>
