@@ -3,7 +3,7 @@ OVERVIEW
 
 Autotags is a dead-simple tag editor using the JQuery framework. It's meant to gracefully degrade without any JS support at all, work as seamlessly as possible with an existing tag field, and be easy on the eyes. It uses the autocomplete plugin to suggest new tags as they're being typed. Just call the autotags() method on a form field containing comma-separated tags--the plugin will wrap it with some pretty tag elements, add some callbacks, and ensure the original field is always kept in sync. On submit, you get the same comma-separated list of tags back that you'd expect.
 
-See the demo at <http://aphyr.com/software/autotags>.
+See the demo at <http://aphyr.com/projects/autotags>.
 
 MIT LICENSE
 ===========
